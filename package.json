@@ -1,10 +1,19 @@
 {
   "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
     "vite": "^2.7.13",
     "vite-plugin-ruby": "^3.0.8"
   },
   "dependencies": {
     "react": "^17.0.2",
     "react-router-dom": "^6.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "cz"
   }
 }
