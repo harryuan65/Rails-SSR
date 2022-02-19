@@ -1,0 +1,242 @@
+require: rubocop-rails
+
+AllCops:
+  NewCops: enable
+  DisabledByDefault: false
+  TargetRubyVersion: 3.0.3
+  Exclude:
+    - bin/*
+    - config/initializers/*.rb
+    - db/**/*.rb
+    - dev/*.rb
+    - config/puma.rb
+    - config/environments/*.rb
+    - test/**/*.rb
+
+Style/GlobalVars:
+  Enabled: true
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
+Rails/Blank:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/NumericLiterals:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/NumericPredicate:
+  Enabled: true
+
+Rails/PluralizationGrammar:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+
+Layout/HashAlignment:
+  Enabled: true
+
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: true
+
+Layout/FirstHashElementIndentation:
+  Enabled: true
+
+Layout/SpaceInsideBlockBraces:
+  Enabled: true
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: true
+
+Rails/FilePath:
+  Enabled: true
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: true
+
+Style/PercentLiteralDelimiters:
+  Enabled: true
+
+Layout/TrailingEmptyLines:
+  Enabled: true
+
+Layout/SpaceBeforeComma:
+  Enabled: true
+
+Layout/SpaceAfterComma:
+  Enabled: true
+
+Style/MethodDefParentheses:
+  Enabled: true
+
+Layout/DotPosition:
+  Enabled: true
+
+Layout/ArrayAlignment:
+  Enabled: true
+
+Layout/SpaceAfterColon:
+  Enabled: true
+
+Layout/EmptyLines:
+  Enabled: true
+
+Layout/SpaceAroundOperators:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/WordArray:
+  Enabled: true
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/BlockDelimiters:
+  Enabled: true
+
+Layout/BlockEndNewline:
+  Enabled: true
+
+Lint/RedundantStringCoercion:
+  Enabled: true
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: true
+
+Style/MutableConstant:
+  Enabled: true
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+
+Layout/CommentIndentation:
+  Enabled: true
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: true
+
+Layout/SpaceInLambdaLiteral:
+  Enabled: true
+
+Layout/LeadingCommentSpace:
+  Enabled: true
+
+Style/AsciiComments:
+  Enabled: true
+
+Style/RedundantCondition:
+  Enabled: true
+
+Style/OrAssignment:
+  Enabled: true
+
+Style/RedundantReturn:
+  Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+
+Layout/ElseAlignment:
+  Enabled: true
+
+Style/Next:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/CaseLikeIf:
+  Enabled: true
+
+Style/ConditionalAssignment:
+  Enabled: true
+
+Style/IfUnlessModifier:
+  Enabled: true
+
+Rails/WhereNot:
+  Enabled: true
+
+Style/RedundantAssignment:
+  Enabled: true
+
+Rails/SquishedSQLHeredocs:
+  Enabled: true
+
+Style/TrailingCommaInArguments:
+  Enabled: true
+
+Layout/ArgumentAlignment:
+  Enabled: true
+
+Naming/PredicateName:
+  Enabled: true
+
+Lint/DuplicateBranch:
+  Enabled: true
+
+Metrics/ModuleLength:
+  Enabled: true
+
+Naming/AccessorMethodName:
+  Enabled: true
+
+Style/RescueStandardError:
+  Enabled: true
+
+Style/NegatedIf:
+  Enabled: true
+
+Style/SingleArgumentDig:
+  Enabled: true
+
+Style/GuardClause: # 優先處理
+  Enabled: true
+
+Rails/TimeZone: # Assume UTC
+  Enabled: true
+
+Metrics/MethodLength:
+  Enabled: true
+
+Metrics/BlockLength:
+  Enabled: true
+
+Metrics/AbcSize:
+  Enabled: true
+
+Metrics/PerceivedComplexity:
+  Enabled: true
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+
+Metrics/ClassLength:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: true
+
+Layout/LineLength:
+  Enabled: true
