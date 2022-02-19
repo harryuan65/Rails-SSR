@@ -2,7 +2,9 @@
 
 # Root
 class ApplicationController < ActionController::Base
-  def index; end
+  def index
+    render inertia: 'IndexPage'
+  end
 
   def show
     event = Event.find(params[:id])
